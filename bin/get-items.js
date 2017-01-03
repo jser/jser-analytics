@@ -44,7 +44,7 @@ const items = getURLAsync("https://jser.info/source-data/items.json");
 Promise.all([posts, items]).then(function(results) {
     const postData = results[0];
     const itemData = results[1];
-    const stat = new JSerStat(itemData, postData.reverse());
+    const stat = new JSerStat(itemData, postData);
     if (cli.flags.from && cli.flags.to) {
         const fromDate = moment(cli.flags.from).toDate();
         const toDate = moment(cli.flags.to).toDate();
