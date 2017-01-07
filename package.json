@@ -39,8 +39,11 @@
     "cached-request": "^1.1.0",
     "get-stdin": "^5.0.1",
     "jser-stat": "^2.1.1",
+    "kuromojin": "^1.3.2",
+    "lodash": "^4.17.4",
     "meow": "^3.7.0",
     "moment": "^2.17.1",
+    "negaposi-analyzer-ja": "^1.0.1",
     "request": "latest"
   }
 }
